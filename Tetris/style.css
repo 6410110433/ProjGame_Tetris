@@ -1,7 +1,12 @@
+@font-face {
+    font-family: 'Monaco';
+    src: local('Monaco'), url('Monaco.woff') format('woff');
+    }
+
 body{
     background-color: black;
     color: #fff;
-    font-family: sans-serif;
+    font-family: 'Monaco';
     font-size: 2em;
     text-align: center;
      
@@ -12,3 +17,54 @@ canvas{
     height:  90vh;
      
 }
+
+.title_box{
+    border: solid 0.2em #fff;
+    padding: 50px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    height:  90vh;
+
+}
+
+.title_name{
+    margin-top: 12rem;
+    margin-bottom: 1.5rem;
+}
+
+.input_name{
+    font-size: 20px;
+}
+
+.play_button, .back_button, .dashbord_btn{
+    font-family: 'Monaco';
+    font-size:20px;
+}
+
+.db_name{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+/*----------Table----------*/
+
+table {
+    color: #fff;
+    font-family: 'Monaco';
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  th {
+    border: 1px solid #dddddd;
+    background-color: rgb(255, 174, 0);
+    text-align: center;
+    padding: 8px;
+  }
+
+  td{
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
